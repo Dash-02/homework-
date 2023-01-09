@@ -1,17 +1,17 @@
-// Сейдалиев, 2ИСП-2, Вариант-2, 08.01.2023
+// РЎРµР№РґР°Р»РёРµРІ, 2РРЎРџ-2, Р’Р°СЂРёР°РЅС‚-2, 08.01.2023
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ПР_11_2ИСП_2_Сейдалиев
+namespace РџР _11_2РРЎРџ_2_РЎРµР№РґР°Р»РёРµРІ
 {
     internal class Program
     {
-        static void task_1() //задание 1
+        static void task_1() //Р·Р°РґР°РЅРёРµ 1
         {
-            Console.Write("Введите число n = ");
+            Console.Write("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ n = ");
             int n = Convert.ToInt32(Console.ReadLine());
             double A = 1;
 
@@ -21,15 +21,15 @@ namespace ПР_11_2ИСП_2_Сейдалиев
             }
             Console.WriteLine($"A = {A,5:f2}");
         }
-        static void task_2() //задание 2
+        static void task_2() //Р·Р°РґР°РЅРёРµ 2
         {
-            Console.Write("Введите колличество чисел n: ");
+            Console.Write("Р’РІРµРґРёС‚Рµ РєРѕР»Р»РёС‡РµСЃС‚РІРѕ С‡РёСЃРµР» n: ");
             int n = Convert.ToInt32(Console.ReadLine());
             int a, a1, a2, a3, k = 0;
 
             for (int i = 1; i <= n; i++)
             {
-                Console.Write("Введите трехзначное число: ");
+                Console.Write("Р’РІРµРґРёС‚Рµ С‚СЂРµС…Р·РЅР°С‡РЅРѕРµ С‡РёСЃР»Рѕ: ");
                 a = Convert.ToInt32(Console.ReadLine());
 
                 a1 = a / 100;
@@ -42,9 +42,9 @@ namespace ПР_11_2ИСП_2_Сейдалиев
 
             Console.WriteLine($"k = {k}");
         }
-        static void task_3() //задание 3
+        static void task_3() //Р·Р°РґР°РЅРёРµ 3
         {
-            Console.Write("Введите m и n ( m <= n ) \n m = ");
+            Console.Write("Р’РІРµРґРёС‚Рµ m Рё n ( m <= n ) \n m = ");
             int m = Convert.ToInt32(Console.ReadLine());
 
             Console.Write(" n = ");
@@ -62,14 +62,14 @@ namespace ПР_11_2ИСП_2_Сейдалиев
         public static void Main(string[] args)
         {
             number_task:
-            Console.Write("Введите номер задания (0 - выход): ");
+            Console.Write("Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ Р·Р°РґР°РЅРёСЏ (0 - РІС‹С…РѕРґ): ");
 
             int num = Convert.ToInt32(Console.ReadLine());
 
                switch (num)
                 {
                     case 0:
-                        Console.WriteLine("Для завершения программы нажмите Enter");
+                        Console.WriteLine("Р”Р»СЏ Р·Р°РІРµСЂС€РµРЅРёСЏ РїСЂРѕРіСЂР°РјРјС‹ РЅР°Р¶РјРёС‚Рµ Enter");
                         break;
 
                     case 1:
@@ -85,7 +85,7 @@ namespace ПР_11_2ИСП_2_Сейдалиев
                         goto number_task;
 
                     default:
-                        Console.WriteLine("Введен неверный номер задачи");
+                        Console.WriteLine("Р’РІРµРґРµРЅ РЅРµРІРµСЂРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°РґР°С‡Рё");
                         break;
                 }
 
