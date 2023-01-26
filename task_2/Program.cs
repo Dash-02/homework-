@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Semivolos_domashnie_zadanie
+namespace Semivolos_domashnee_zadanie
 {
     class Program
     { 
