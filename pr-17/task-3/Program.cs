@@ -8,7 +8,7 @@ namespace ПР_17_3_2ИСП2_Сейдалиев_Семиволос
         public static void Main(string[] args)
         {
             int[,] A = gen_massiv(-15, 15);
-            int[] S = new int[A.GetLength(0)];
+            int[] S;
 
             S = Task_3(A);
 
@@ -54,8 +54,10 @@ namespace ПР_17_3_2ИСП2_Сейдалиев_Семиволос
 
         static int[] Task_3(int[,] mas)
         {
-            int[] b = new int[mas.GetLength(0) * mas.GetLength(1)];
+            int[] b = new int[mas.Length];
+
             int index = 0;
+
             for (int i = 0; i < mas.GetLength(0); i++)
             {
                 for (int j = 0; j < mas.GetLength(1); j++)
@@ -66,34 +68,24 @@ namespace ПР_17_3_2ИСП2_Сейдалиев_Семиволос
                         index++;
                     }
                 }
-
-                //    int[] sum = new int[mas.GetLength(0)];
-                //int s;
-
-                //for (int i = 0; i < mas.GetLength(0); i++)
-                //{
-
-                //    s = 0;
-
-                //    for (int j = 0; j < mas.GetLength(1); j++)
-                //    {
-                //        if (mas[i, j] > 0)
-                //            s = mas[i, j];
-                //    }
-                //    sum[i] = s;
-                //}
-                //foreach (int item in mas)
-                //{
-                //    if (item > 0)
-                //        s = item;
-                //}
-                //for (int i = 0; i < mas.Length; i++)
-                //{
-                //    if (mas[i, j] > 0)
-                //        s = mas[i, j];
-
-                //}
-
+            }
+            Array.Resize(ref b, index);
+            SortArr(b);
+            return b;
+        }
+        static int[] SortArr(int[] b)
+        {
+            for (int i = 0; i < b.Length - 1; i++)
+            {
+                for (int j = i + 1; j < b.Length; j++)
+                {
+                    if (b[i] < b[j])
+                    {
+                        var C = b[j];
+                        b[j] = b[i];
+                        b[i] = C;
+                    }
+                }
             }
             return b;
         }
