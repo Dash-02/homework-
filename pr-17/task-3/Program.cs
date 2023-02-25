@@ -69,10 +69,21 @@ namespace ПР_17_3_2ИСП2_Сейдалиев_Семиволос
                     }
                 }
             }
-            Array.Resize(ref b, index);
+            ResizeArr(ref b, index);
             SortArr(b);
             return b;
         }
+
+        static void ResizeArr(ref int[] b, int index)
+        {
+            int[] newArr = new int[index];
+            for (int i = 0; i < newArr.Length && i < newArr.Length; i++)
+            {
+                newArr[i] = b[i];
+            }
+            b = newArr;
+        }
+
         static int[] SortArr(int[] b)
         {
             for (int i = 0; i < b.Length - 1; i++)
