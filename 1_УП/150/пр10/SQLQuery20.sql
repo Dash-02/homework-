@@ -1,0 +1,4 @@
+USE РиэлтерскоеАгентство;
+GRANT SELECT ON Агент TO USER_02;
+DENY UPDATE ON Объект TO USER_03;
+GRANT INSERT ON Сделка TO USER_04;
