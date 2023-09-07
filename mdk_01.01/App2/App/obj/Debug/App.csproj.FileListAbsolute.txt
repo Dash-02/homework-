@@ -1,0 +1,16 @@
+D:\JavaScript\shutak\App\App\bin\Debug\App.exe.config
+D:\JavaScript\shutak\App\App\bin\Debug\App.exe
+D:\JavaScript\shutak\App\App\bin\Debug\App.pdb
+D:\JavaScript\shutak\App\App\obj\Debug\App.csproj.AssemblyReference.cache
+D:\JavaScript\shutak\App\App\obj\Debug\App.csproj.SuggestedBindingRedirects.cache
+D:\JavaScript\shutak\App\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+D:\JavaScript\shutak\App\App\obj\Debug\App.exe
+D:\JavaScript\shutak\App\App\obj\Debug\App.pdb
+G:\shutak\App2\App\bin\Debug\App.exe.config
+G:\shutak\App2\App\bin\Debug\App.exe
+G:\shutak\App2\App\bin\Debug\App.pdb
+G:\shutak\App2\App\obj\Debug\App.csproj.AssemblyReference.cache
+G:\shutak\App2\App\obj\Debug\App.csproj.SuggestedBindingRedirects.cache
+G:\shutak\App2\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+G:\shutak\App2\App\obj\Debug\App.exe
+G:\shutak\App2\App\obj\Debug\App.pdb
