@@ -9,3 +9,15 @@ C:\Users\WSR-209-08\source\repos\WinFormsApp3\obj\Debug\WinFormsApp3.csproj.Core
 C:\Users\WSR-209-08\source\repos\WinFormsApp3\obj\Debug\WinFormsApp3.exe
 C:\Users\WSR-209-08\source\repos\WinFormsApp3\obj\Debug\WinFormsApp3.pdb
 C:\Users\WSR-209-08\source\repos\WinFormsApp3\obj\Debug\WinFormsApp3.AboutBox.resources
+D:\JavaScript\shutak\homework-\mdk_11.01_winForms\WinFormsApp3\obj\Debug\WinFormsApp3.csproj.AssemblyReference.cache
+D:\JavaScript\shutak\homework-\mdk_11.01_winForms\WinFormsApp3\obj\Debug\WinFormsApp3.csproj.SuggestedBindingRedirects.cache
+D:\JavaScript\shutak\homework-\mdk_11.01_winForms\WinFormsApp3\obj\Debug\WinFormsApp3.Form1.resources
+D:\JavaScript\shutak\homework-\mdk_11.01_winForms\WinFormsApp3\obj\Debug\WinFormsApp3.Properties.Resources.resources
+D:\JavaScript\shutak\homework-\mdk_11.01_winForms\WinFormsApp3\obj\Debug\WinFormsApp3.csproj.GenerateResource.cache
+D:\JavaScript\shutak\homework-\mdk_11.01_winForms\WinFormsApp3\obj\Debug\WinFormsApp3.csproj.CoreCompileInputs.cache
+D:\JavaScript\shutak\homework-\mdk_11.01_winForms\WinFormsApp3\obj\Debug\WinFormsApp3.exe
+D:\JavaScript\shutak\homework-\mdk_11.01_winForms\WinFormsApp3\obj\Debug\WinFormsApp3.pdb
+D:\JavaScript\shutak\homework-\mdk_11.01_winForms\WinFormsApp3\bin\Debug\WinFormsApp3.exe.config
+D:\JavaScript\shutak\homework-\mdk_11.01_winForms\WinFormsApp3\bin\Debug\WinFormsApp3.exe
+D:\JavaScript\shutak\homework-\mdk_11.01_winForms\WinFormsApp3\bin\Debug\WinFormsApp3.pdb
+D:\JavaScript\shutak\homework-\mdk_11.01_winForms\WinFormsApp3\obj\Debug\WinFormsApp3.AboutBox1.resources

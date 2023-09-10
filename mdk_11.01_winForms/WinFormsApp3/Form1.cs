@@ -13,7 +13,7 @@ namespace WinFormsApp3
 {
     public partial class Form1 : Form
     {
-        AboutBox a;
+        AboutBox1 a;
         public Form1()
         {
             InitializeComponent();
@@ -98,7 +98,7 @@ namespace WinFormsApp3
 
         private void оПрограммеToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            a = new AboutBox();
+            a = new AboutBox1();
             a.Show();
         }
 
