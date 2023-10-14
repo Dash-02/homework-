@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\mdk_11.01_winForms",
+    "\\mdk_11.01_winForms\\calc_Amet",
+    "\\mdk_11.01_winForms\\calc_Amet\\WindowsFormsApp1",
+    "\\mdk_11.01_winForms\\calc_Amet\\WindowsFormsApp1\\WindowsFormsApp1"
   ],
-  "SelectedNode": "\\WinFormsApp3.sln",
+  "SelectedNode": "\\mdk_11.01_winForms\\calc_Amet\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

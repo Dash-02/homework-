@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -28,67 +29,119 @@ namespace WindowsFormsApp1
             switch (plus) {
                 case '=':
                     charsArr = textBox1.Text.ToCharArray();
+
                     for (int i = 0; i < charsArr.Length; i++)
                     {
-                        
-                        vivod += charsArr[i];
-                        if (charsArr[i] == '+')                        
+                        if (charsArr[i] == '+')
                         {
-                            
-                            string[] words = textBox1.Text.Split('+');
-                            string first = words[0];
-                            double firstFloat = double.Parse(first);
-                            string second = words[1];
-                            double secondFloat = double.Parse(second);
-                            double result = firstFloat + secondFloat;
-                            textBox1.Text = "";
-                            textBox1.Text = result + "";
-
-                        }
+                            charsArr = plusfunc(charsArr);
+                        } 
                         if (charsArr[i] == '-')
                         {
-
-                            string[] words = textBox1.Text.Split('-');
-                            string first = words[0];
-                            float firstFloat = float.Parse(first);
-                            string second = words[1];
-                            float secondFloat = float.Parse(second);
-                            float result = firstFloat - secondFloat;
-                            textBox1.Text = "";
-                            textBox1.Text = result + "";
-
+                            charsArr = minusfunc(charsArr);
                         }
                         if (charsArr[i] == '/')
                         {
-
-                            string[] words = textBox1.Text.Split('/');
-                            string first = words[0];
-                            float firstFloat = float.Parse(first);
-                            string second = words[1];
-                            float secondFloat = float.Parse(second);
-                            float result = firstFloat / secondFloat;
-                            textBox1.Text = "";
-                            textBox1.Text = result + "";
-
+                            charsArr = divfunc(charsArr);
                         }
                         if (charsArr[i] == '*')
                         {
-
-                            string[] words = textBox1.Text.Split('*');
-                            string first = words[0];
-                            float firstFloat = float.Parse(first);
-                            string second = words[1];
-                            float secondFloat = float.Parse(second);
-                            float result = firstFloat * secondFloat;
-                            textBox1.Text = "";
-                            textBox1.Text = result + "";
-
+                            charsArr = multifunc(charsArr);
                         }
 
-                    }
+                       
 
-                    
-                break;
+                        char[]  plusfunc(char[] charsArr)
+                        {
+                            if (charsArr[i] == '+')
+                            {
+                                string wordString = charsArr.ToString();
+                                string[] words = wordString.Split('+');
+                                float init = 1;
+                                for (int j = 0; j < words.Length; j++)
+                                {
+                                    init = init + Int32.Parse(words[j]);
+                                }
+                                string initString = init.ToString();
+                                char[] initArr = initString.ToCharArray();
+                                textBox1.Text = "";
+                                return initArr;
+                            } else
+                            {
+                                return null;
+                            }
+                        }
+
+                        char[] minusfunc(char[] charsArr)
+                        {
+                            if (charsArr[i] == '-')
+                            {
+                                string wordString = charsArr.ToString();
+                                string[] words = wordString.Split('-');
+                                float init = 1;
+                                for (int j = 0; j < words.Length; j++)
+                                {
+                                    init = init - Int32.Parse(words[j]);
+                                }
+                                string initString = init.ToString();
+                                char[] initArr = initString.ToCharArray();
+                                textBox1.Text = "";
+                                return initArr;
+                            }
+                            else
+                            {
+                                return null;
+                            }
+                        }
+                        char[] divfunc(char[] charsArr)
+                        {
+                            if (charsArr[i] == '/')
+                            {
+                                string wordString = charsArr.ToString();
+                                string[] words = wordString.Split('/');
+                                float init = 1;
+                                for (int j = 0; j < words.Length; j++)
+                                {
+                                    init = init / Int32.Parse(words[j]);
+                                }
+                                string initString = init.ToString();
+                                char[] initArr = initString.ToCharArray();
+                                textBox1.Text = "";
+                                return initArr;
+                            }
+                            else
+                            {
+                                return null;
+                            }
+                        }
+                        char[] multifunc(char[] charsArr)
+                        {
+                            if (charsArr[i] == '*')
+                            {
+                                string wordString = charsArr.ToString();
+                                string[] words = wordString.Split('*');
+                                float init = 1;
+                                for (int j = 0; j < words.Length; j++)
+                                {
+                                    init = init * Int32.Parse(words[j]);
+                                }
+                                string initString = init.ToString();
+                                char[] initArr = initString.ToCharArray();
+                                textBox1.Text = "";
+                                return initArr;
+                            }
+                            else
+                            {
+                                return null;
+                            }
+                        }
+                       
+
+                    }
+                    string result = string.Join("", charsArr);
+                    textBox1.Text = result;
+
+                    break;
                 case ('C'):
                     Console.WriteLine("w");
                     char[] arrDeleteEl = textBox1.Text.ToArray();
@@ -173,17 +226,23 @@ namespace WindowsFormsApp1
 
         private void button12_Click(object sender, EventArgs e)
         {
-            int count = 1;
-            count += 1;
-            if(count >= 2)
-            {
-                textBox1.Text += "+";
-            }
+            textBox1.Text += "+";
+            char multiChar = '+';
+            List<char> someChar = textBox1.Text.ToList();
+            List<char> list = somefunc(someChar, multiChar);
+            string result = string.Join("", list);
+            textBox1.Text = result;
+
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
             textBox1.Text += "-";
+            char multiChar = '-';
+            List<char> someChar = textBox1.Text.ToList();
+            List<char> list = somefunc(someChar, multiChar);
+            string result = string.Join("", list);
+            textBox1.Text = result;
         }
 
         private void button13_Click(object sender, EventArgs e)
@@ -194,6 +253,12 @@ namespace WindowsFormsApp1
         private void button14_Click(object sender, EventArgs e)
         {
             textBox1.Text += "/";
+            char multiChar = '/';
+            List<char> someChar = textBox1.Text.ToList();
+            List<char> list = somefunc(someChar, multiChar);
+            string result = string.Join("", list);
+            textBox1.Text = result;
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -204,28 +269,9 @@ namespace WindowsFormsApp1
         private void button16_Click(object sender, EventArgs e)
         {
             textBox1.Text += "*";
-            List<char> list = textBox1.Text.ToList();
-            List<int> listNumber = new List<int>();
-            int count = 0;
-
-            for (int i = 0; i < list.Count; i++)
-            {
-                if (list[i] == '*')
-                {
-                    count += 1;
-                    listNumber.Add(i);
-                }
-
-                for (int j = 0; j < listNumber.Count - 1; j++)
-                {
-                    if (count > 1 && listNumber[j] - listNumber[j + 1] == -1)
-                    {
-                        list.RemoveRange(listNumber[j + 1], 1);
-                        listNumber.RemoveAt(j + 1);
-                    }
-                }
-            }
-
+            char multiChar = '*';
+            List<char> someChar = textBox1.Text.ToList();
+            List<char> list = somefunc(someChar, multiChar);
             string result = string.Join("", list);
             textBox1.Text = result;
 
@@ -248,6 +294,32 @@ namespace WindowsFormsApp1
         private void button15_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
+        }
+        public List<char> somefunc(List<char> list, char multiChar)
+        {
+            
+            List<int> listNumber = new List<int>();
+            int count = 0;
+
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i] == multiChar)
+                {
+                    count += 1;
+                    listNumber.Add(i);
+                }
+
+                for (int j = 0; j < listNumber.Count - 1; j++)
+                {
+                    if (count > 1 && listNumber[j] - listNumber[j + 1] == -1)
+                    {
+                        list.RemoveRange(listNumber[j + 1], 1);
+                        listNumber.RemoveAt(j + 1);
+                    }
+                }
+            }
+            return list;
+
         }
     }
 }
