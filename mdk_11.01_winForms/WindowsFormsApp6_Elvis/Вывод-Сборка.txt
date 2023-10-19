@@ -1,0 +1,4 @@
+﻿Сборка начата…
+1>------ Сборка начата: проект: WindowsFormsApp6, Конфигурация: Debug Any CPU ------
+1>  WindowsFormsApp6 -> E:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\WindowsFormsApp6.exe
+========== Сборка: успешно: 1, с ошибками: 0, без изменений: 0, пропущено: 0 ==========

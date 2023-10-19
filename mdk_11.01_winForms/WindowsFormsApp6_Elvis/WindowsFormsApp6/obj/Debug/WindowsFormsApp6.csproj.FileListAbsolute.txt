@@ -1,0 +1,52 @@
+C:\Users\User\Documents\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\WindowsFormsApp6.exe.config
+C:\Users\User\Documents\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\WindowsFormsApp6.exe
+C:\Users\User\Documents\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\WindowsFormsApp6.pdb
+C:\Users\User\Documents\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.AssemblyReference.cache
+C:\Users\User\Documents\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Documents\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Form1.resources
+C:\Users\User\Documents\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Properties.Resources.resources
+C:\Users\User\Documents\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.GenerateResource.cache
+C:\Users\User\Documents\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.exe
+C:\Users\User\Documents\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.pdb
+G:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\WindowsFormsApp6.exe.config
+G:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\WindowsFormsApp6.exe
+G:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\WindowsFormsApp6.pdb
+G:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.AssemblyReference.cache
+G:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.SuggestedBindingRedirects.cache
+G:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Form1.resources
+G:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Properties.Resources.resources
+G:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Тест.resources
+G:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.GenerateResource.cache
+G:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.CoreCompileInputs.cache
+G:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.exe
+G:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.pdb
+G:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Exam1.resources
+G:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Exams.resources
+E:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\WindowsFormsApp6.exe.config
+E:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\WindowsFormsApp6.exe
+E:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\WindowsFormsApp6.pdb
+E:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.AssemblyReference.cache
+E:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.SuggestedBindingRedirects.cache
+E:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Exam1.resources
+E:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Exams.resources
+E:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Form1.resources
+E:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Properties.Resources.resources
+E:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Тест.resources
+E:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.GenerateResource.cache
+E:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.CoreCompileInputs.cache
+E:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.exe
+E:\Для колледжа\МДК\VS\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.pdb
+C:\Users\amets\OneDrive\Рабочий стол\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\WindowsFormsApp6.exe.config
+C:\Users\amets\OneDrive\Рабочий стол\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\WindowsFormsApp6.exe
+C:\Users\amets\OneDrive\Рабочий стол\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\WindowsFormsApp6.pdb
+C:\Users\amets\OneDrive\Рабочий стол\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.AssemblyReference.cache
+C:\Users\amets\OneDrive\Рабочий стол\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Exam1.resources
+C:\Users\amets\OneDrive\Рабочий стол\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Exams.resources
+C:\Users\amets\OneDrive\Рабочий стол\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Form1.resources
+C:\Users\amets\OneDrive\Рабочий стол\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Properties.Resources.resources
+C:\Users\amets\OneDrive\Рабочий стол\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Тест.resources
+C:\Users\amets\OneDrive\Рабочий стол\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.GenerateResource.cache
+C:\Users\amets\OneDrive\Рабочий стол\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.CoreCompileInputs.cache
+C:\Users\amets\OneDrive\Рабочий стол\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.exe
+C:\Users\amets\OneDrive\Рабочий стол\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.pdb
