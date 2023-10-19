@@ -204,6 +204,33 @@ namespace WindowsFormsApp1
         private void button16_Click(object sender, EventArgs e)
         {
             textBox1.Text += "*";
+            List<char> list = textBox1.Text.ToList();
+            List<int> listNumber = new List<int>();
+            int count = 0;
+
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i] == '*')
+                {
+                    count += 1;
+                    listNumber.Add(i);
+                }
+
+                for (int j = 0; j < listNumber.Count - 1; j++)
+                {
+                    if (count > 1 && listNumber[j] - listNumber[j + 1] == -1)
+                    {
+                        list.RemoveRange(listNumber[j + 1], 1);
+                        listNumber.RemoveAt(j + 1);
+                    }
+                }
+            }
+
+            string result = string.Join("", list);
+            textBox1.Text = result;
+
+
+            
         }
 
         private void button17_Click(object sender, EventArgs e)
