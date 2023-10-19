@@ -1,0 +1,53 @@
+D:\Рабочий стол\Колледж\БД\VS готовые\Калькулятор\Калькулятор\bin\Debug\Калькулятор.exe.config
+D:\Рабочий стол\Колледж\БД\VS готовые\Калькулятор\Калькулятор\bin\Debug\Калькулятор.exe
+D:\Рабочий стол\Колледж\БД\VS готовые\Калькулятор\Калькулятор\bin\Debug\Калькулятор.pdb
+D:\Рабочий стол\Колледж\БД\VS готовые\Калькулятор\Калькулятор\obj\Debug\Калькулятор.csproj.AssemblyReference.cache
+D:\Рабочий стол\Колледж\БД\VS готовые\Калькулятор\Калькулятор\obj\Debug\Калькулятор.Form1.resources
+D:\Рабочий стол\Колледж\БД\VS готовые\Калькулятор\Калькулятор\obj\Debug\Калькулятор.Properties.Resources.resources
+D:\Рабочий стол\Колледж\БД\VS готовые\Калькулятор\Калькулятор\obj\Debug\Калькулятор.csproj.GenerateResource.cache
+D:\Рабочий стол\Колледж\БД\VS готовые\Калькулятор\Калькулятор\obj\Debug\Калькулятор.csproj.CoreCompileInputs.cache
+D:\Рабочий стол\Колледж\БД\VS готовые\Калькулятор\Калькулятор\obj\Debug\Калькулятор.exe
+D:\Рабочий стол\Колледж\БД\VS готовые\Калькулятор\Калькулятор\obj\Debug\Калькулятор.pdb
+C:\Users\User\Documents\Новая папка\Калькулятор\bin\Debug\Калькулятор.exe.config
+C:\Users\User\Documents\Новая папка\Калькулятор\bin\Debug\Калькулятор.exe
+C:\Users\User\Documents\Новая папка\Калькулятор\bin\Debug\Калькулятор.pdb
+C:\Users\User\Documents\Новая папка\Калькулятор\obj\Debug\Калькулятор.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Новая папка\Калькулятор\obj\Debug\Калькулятор.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Documents\Новая папка\Калькулятор\obj\Debug\Калькулятор.Form1.resources
+C:\Users\User\Documents\Новая папка\Калькулятор\obj\Debug\Калькулятор.Properties.Resources.resources
+C:\Users\User\Documents\Новая папка\Калькулятор\obj\Debug\Калькулятор.csproj.GenerateResource.cache
+C:\Users\User\Documents\Новая папка\Калькулятор\obj\Debug\Калькулятор.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Новая папка\Калькулятор\obj\Debug\Калькулятор.exe
+C:\Users\User\Documents\Новая папка\Калькулятор\obj\Debug\Калькулятор.pdb
+G:\Для колледжа\МДК\VS\Новая папка\Калькулятор\bin\Debug\Калькулятор.exe.config
+G:\Для колледжа\МДК\VS\Новая папка\Калькулятор\bin\Debug\Калькулятор.exe
+G:\Для колледжа\МДК\VS\Новая папка\Калькулятор\bin\Debug\Калькулятор.pdb
+G:\Для колледжа\МДК\VS\Новая папка\Калькулятор\obj\Debug\Калькулятор.csproj.AssemblyReference.cache
+G:\Для колледжа\МДК\VS\Новая папка\Калькулятор\obj\Debug\Калькулятор.csproj.SuggestedBindingRedirects.cache
+G:\Для колледжа\МДК\VS\Новая папка\Калькулятор\obj\Debug\Калькулятор.Form1.resources
+G:\Для колледжа\МДК\VS\Новая папка\Калькулятор\obj\Debug\Калькулятор.Properties.Resources.resources
+G:\Для колледжа\МДК\VS\Новая папка\Калькулятор\obj\Debug\Калькулятор.csproj.GenerateResource.cache
+G:\Для колледжа\МДК\VS\Новая папка\Калькулятор\obj\Debug\Калькулятор.csproj.CoreCompileInputs.cache
+G:\Для колледжа\МДК\VS\Новая папка\Калькулятор\obj\Debug\Калькулятор.exe
+G:\Для колледжа\МДК\VS\Новая папка\Калькулятор\obj\Debug\Калькулятор.pdb
+F:\Для колледжа\МДК\VS\Новая папка\Калькулятор\bin\Debug\Калькулятор.exe.config
+F:\Для колледжа\МДК\VS\Новая папка\Калькулятор\bin\Debug\Калькулятор.exe
+F:\Для колледжа\МДК\VS\Новая папка\Калькулятор\bin\Debug\Калькулятор.pdb
+F:\Для колледжа\МДК\VS\Новая папка\Калькулятор\obj\Debug\Калькулятор.csproj.AssemblyReference.cache
+F:\Для колледжа\МДК\VS\Новая папка\Калькулятор\obj\Debug\Калькулятор.csproj.SuggestedBindingRedirects.cache
+F:\Для колледжа\МДК\VS\Новая папка\Калькулятор\obj\Debug\Калькулятор.Form1.resources
+F:\Для колледжа\МДК\VS\Новая папка\Калькулятор\obj\Debug\Калькулятор.Properties.Resources.resources
+F:\Для колледжа\МДК\VS\Новая папка\Калькулятор\obj\Debug\Калькулятор.csproj.GenerateResource.cache
+F:\Для колледжа\МДК\VS\Новая папка\Калькулятор\obj\Debug\Калькулятор.csproj.CoreCompileInputs.cache
+F:\Для колледжа\МДК\VS\Новая папка\Калькулятор\obj\Debug\Калькулятор.exe
+F:\Для колледжа\МДК\VS\Новая папка\Калькулятор\obj\Debug\Калькулятор.pdb
+C:\Users\amets\OneDrive\Рабочий стол\Новая папка\Калькулятор\bin\Debug\Калькулятор.exe.config
+C:\Users\amets\OneDrive\Рабочий стол\Новая папка\Калькулятор\bin\Debug\Калькулятор.exe
+C:\Users\amets\OneDrive\Рабочий стол\Новая папка\Калькулятор\bin\Debug\Калькулятор.pdb
+C:\Users\amets\OneDrive\Рабочий стол\Новая папка\Калькулятор\obj\Debug\Калькулятор.csproj.AssemblyReference.cache
+C:\Users\amets\OneDrive\Рабочий стол\Новая папка\Калькулятор\obj\Debug\Калькулятор.Form1.resources
+C:\Users\amets\OneDrive\Рабочий стол\Новая папка\Калькулятор\obj\Debug\Калькулятор.Properties.Resources.resources
+C:\Users\amets\OneDrive\Рабочий стол\Новая папка\Калькулятор\obj\Debug\Калькулятор.csproj.GenerateResource.cache
+C:\Users\amets\OneDrive\Рабочий стол\Новая папка\Калькулятор\obj\Debug\Калькулятор.csproj.CoreCompileInputs.cache
+C:\Users\amets\OneDrive\Рабочий стол\Новая папка\Калькулятор\obj\Debug\Калькулятор.exe
+C:\Users\amets\OneDrive\Рабочий стол\Новая папка\Калькулятор\obj\Debug\Калькулятор.pdb
