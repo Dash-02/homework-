@@ -1,0 +1,8 @@
+D:\JavaScript\shutak\Project\Project\bin\Debug\Project.exe.config
+D:\JavaScript\shutak\Project\Project\bin\Debug\Project.exe
+D:\JavaScript\shutak\Project\Project\bin\Debug\Project.pdb
+D:\JavaScript\shutak\Project\Project\obj\Debug\Project.csproj.AssemblyReference.cache
+D:\JavaScript\shutak\Project\Project\obj\Debug\Project.csproj.SuggestedBindingRedirects.cache
+D:\JavaScript\shutak\Project\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
+D:\JavaScript\shutak\Project\Project\obj\Debug\Project.exe
+D:\JavaScript\shutak\Project\Project\obj\Debug\Project.pdb
