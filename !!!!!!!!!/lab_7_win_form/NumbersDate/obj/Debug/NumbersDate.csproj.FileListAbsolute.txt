@@ -1,0 +1,11 @@
+D:\JavaScript\shutak\lab_7_win_form\NumbersDate\obj\Debug\NumbersDate.csproj.AssemblyReference.cache
+D:\JavaScript\shutak\lab_7_win_form\NumbersDate\obj\Debug\NumbersDate.csproj.SuggestedBindingRedirects.cache
+D:\JavaScript\shutak\lab_7_win_form\NumbersDate\obj\Debug\NumbersDate.Form1.resources
+D:\JavaScript\shutak\lab_7_win_form\NumbersDate\obj\Debug\NumbersDate.Properties.Resources.resources
+D:\JavaScript\shutak\lab_7_win_form\NumbersDate\obj\Debug\NumbersDate.csproj.GenerateResource.cache
+D:\JavaScript\shutak\lab_7_win_form\NumbersDate\obj\Debug\NumbersDate.csproj.CoreCompileInputs.cache
+D:\JavaScript\shutak\lab_7_win_form\NumbersDate\bin\Debug\NumbersDate.exe.config
+D:\JavaScript\shutak\lab_7_win_form\NumbersDate\bin\Debug\NumbersDate.exe
+D:\JavaScript\shutak\lab_7_win_form\NumbersDate\bin\Debug\NumbersDate.pdb
+D:\JavaScript\shutak\lab_7_win_form\NumbersDate\obj\Debug\NumbersDate.exe
+D:\JavaScript\shutak\lab_7_win_form\NumbersDate\obj\Debug\NumbersDate.pdb
