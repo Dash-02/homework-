@@ -26,11 +26,12 @@ namespace DateNumbers
             }
              
             int[] numbers = modified.Select(x => int.Parse(x.ToString())).ToArray();
-            for (int i = 0; i < numbers.Length; i++)
+            // проверочный вывод массива
+            /*for (int i = 0; i < numbers.Length; i++)
             {
                 Console.Write($"{numbers[i]} ");
             }
-            Console.WriteLine();
+            Console.WriteLine();*/
             
             dateNum.Add(numbers[0]);
             int el = 0;
@@ -48,44 +49,45 @@ namespace DateNumbers
                     dateNum.Add(el);
                 }
             }
-            
-            for (int i = 0; i < dateNum.Count; i++)
+            // проверочный вывод списка
+            /*for (int i = 0; i < dateNum.Count; i++)
             {
                 Console.Write($"d = {dateNum[i]} ");
-            }
+            }*/
 
             // цикл для обработки 0 и чисел > 9
             for (int i = 0; i < dateNum.Count; i++)
             {
                 while (dateNum[i] > 9)
                 {
-                    int a, b;
-                    a = dateNum[i] / 10;
-                    b = dateNum[i] % 10;
+                    int a = dateNum[i] / 10;
+                    int b = dateNum[i] % 10;
+
                     if (i == 7)
                     {
                         result = a + b;
-                        dateNum[i] = result;
-                    }
-                    else if (a != 0 && b == 0)
-                    {
-                        dateNum[i] = a;
-                    }
-                    else if (b != 0 && a == 0)
-                    {
-                        dateNum[i] = b;
+                        dateNum.Add(result);
+                        dateNum[i] = (a != 0 && b == 0) ? a : (b != 0 && a == 0) ? b : a;
+                        if (a != 0 && b != 0)
+                        {
+                            dateNum.Add(b);
+                        }
                     }
                     else
                     {
-                        dateNum[i] = a;
-                        dateNum.Add(b);
+                        dateNum[i] = (a != 0 && b == 0) ? a : (b != 0 && a == 0) ? b : a;
+                        if (a != 0 && b != 0)
+                        {
+                            dateNum.Add(b);
+                        }
                     }
                 }
             }
-            for (int i = 0; i < dateNum.Count; i++)
+            //проверочный вывод списка
+            /*for (int i = 0; i < dateNum.Count; i++)
             {
                 Console.Write($"d1 = {dateNum[i]} ");
-            }
+            }*/
 
             foreach (int num in dateNum)
             {
