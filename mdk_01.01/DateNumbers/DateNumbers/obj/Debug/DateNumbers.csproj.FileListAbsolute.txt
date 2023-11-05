@@ -1,0 +1,30 @@
+D:\JavaScript\shutak\DateNumbers\DateNumbers\bin\Debug\DateNumbers.exe.config
+D:\JavaScript\shutak\DateNumbers\DateNumbers\bin\Debug\DateNumbers.exe
+D:\JavaScript\shutak\DateNumbers\DateNumbers\bin\Debug\DateNumbers.pdb
+D:\JavaScript\shutak\DateNumbers\DateNumbers\obj\Debug\DateNumbers.csproj.AssemblyReference.cache
+D:\JavaScript\shutak\DateNumbers\DateNumbers\obj\Debug\DateNumbers.csproj.SuggestedBindingRedirects.cache
+D:\JavaScript\shutak\DateNumbers\DateNumbers\obj\Debug\DateNumbers.csproj.CoreCompileInputs.cache
+D:\JavaScript\shutak\DateNumbers\DateNumbers\obj\Debug\DateNumbers.exe
+D:\JavaScript\shutak\DateNumbers\DateNumbers\obj\Debug\DateNumbers.pdb
+D:\shutak\DateNumbers\DateNumbers\bin\Debug\DateNumbers.exe.config
+D:\shutak\DateNumbers\DateNumbers\bin\Debug\DateNumbers.exe
+D:\shutak\DateNumbers\DateNumbers\bin\Debug\DateNumbers.pdb
+D:\shutak\DateNumbers\DateNumbers\obj\Debug\DateNumbers.csproj.AssemblyReference.cache
+D:\shutak\DateNumbers\DateNumbers\obj\Debug\DateNumbers.csproj.CoreCompileInputs.cache
+D:\shutak\DateNumbers\DateNumbers\obj\Debug\DateNumbers.exe
+D:\shutak\DateNumbers\DateNumbers\obj\Debug\DateNumbers.pdb
+C:\Users\amets\OneDrive\Рабочий стол\DateNumbers\DateNumbers\bin\Debug\DateNumbers.exe.config
+C:\Users\amets\OneDrive\Рабочий стол\DateNumbers\DateNumbers\bin\Debug\DateNumbers.exe
+C:\Users\amets\OneDrive\Рабочий стол\DateNumbers\DateNumbers\bin\Debug\DateNumbers.pdb
+C:\Users\amets\OneDrive\Рабочий стол\DateNumbers\DateNumbers\obj\Debug\DateNumbers.csproj.AssemblyReference.cache
+C:\Users\amets\OneDrive\Рабочий стол\DateNumbers\DateNumbers\obj\Debug\DateNumbers.csproj.CoreCompileInputs.cache
+C:\Users\amets\OneDrive\Рабочий стол\DateNumbers\DateNumbers\obj\Debug\DateNumbers.exe
+C:\Users\amets\OneDrive\Рабочий стол\DateNumbers\DateNumbers\obj\Debug\DateNumbers.pdb
+D:\JavaScript\shutak\homework-\mdk_01.01\DateNumbers\DateNumbers\bin\Debug\DateNumbers.exe.config
+D:\JavaScript\shutak\homework-\mdk_01.01\DateNumbers\DateNumbers\bin\Debug\DateNumbers.exe
+D:\JavaScript\shutak\homework-\mdk_01.01\DateNumbers\DateNumbers\bin\Debug\DateNumbers.pdb
+D:\JavaScript\shutak\homework-\mdk_01.01\DateNumbers\DateNumbers\obj\Debug\DateNumbers.csproj.AssemblyReference.cache
+D:\JavaScript\shutak\homework-\mdk_01.01\DateNumbers\DateNumbers\obj\Debug\DateNumbers.csproj.SuggestedBindingRedirects.cache
+D:\JavaScript\shutak\homework-\mdk_01.01\DateNumbers\DateNumbers\obj\Debug\DateNumbers.csproj.CoreCompileInputs.cache
+D:\JavaScript\shutak\homework-\mdk_01.01\DateNumbers\DateNumbers\obj\Debug\DateNumbers.exe
+D:\JavaScript\shutak\homework-\mdk_01.01\DateNumbers\DateNumbers\obj\Debug\DateNumbers.pdb
