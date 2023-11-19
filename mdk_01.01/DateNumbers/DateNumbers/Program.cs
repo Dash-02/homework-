@@ -101,7 +101,7 @@ namespace DateNumbers
                 }
             }
 
-            foreach (KeyValuePair<int, int> kvp in countsNum)
+            foreach (KeyValuePair<int, int> kvp in countsNum.OrderBy(kvp => kvp.Key))
             {
                 Console.WriteLine($"Число: {kvp.Key}, Количество: {kvp.Value}");
             }
