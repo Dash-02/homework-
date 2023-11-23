@@ -2,6 +2,7 @@ import * as ScreenOrientation from 'expo-screen-orientation'
 import { StatusBar } from 'expo-status-bar'
 import { useEffect, useState } from 'react'
 import {
+	Alert,
 	Image,
 	ScrollView,
 	StyleSheet,
@@ -70,7 +71,8 @@ export default function App() {
 				<View style={styles.container}>
 					{data.map(el => {
 						return (
-							<View
+							<TouchableOpacity
+								onPress={() => Alert.alert(`Вы выбрали пункт ${el.name} `)}
 								key={el.name}
 								style={{
 									display: 'flex',
@@ -87,7 +89,7 @@ export default function App() {
 									<Text style={{ fontSize: 24 }}>{el.name}</Text>
 									<Text style={{ fontSize: 16 }}>{el.smallname}</Text>
 								</View>
-							</View>
+							</TouchableOpacity>
 						)
 					})}
 				</View>
