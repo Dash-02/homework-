@@ -1,0 +1,26 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Введите число (от 1 до 15):");
+        int number = Convert.ToInt32(Console.ReadLine());
+
+        if (number >= 1 && number <= 15) // проверка, что число находится в заданном диапазоне
+        {
+            long factorial = 1;
+
+            for (int i = 1; i <= number; i++)
+            {
+                factorial *= i; // вычисляем факториал числа
+            }
+
+            Console.WriteLine($"Факториал числа {number} = {factorial}");
+        }
+        else
+        {
+            Console.WriteLine("Число должно быть в диапазоне от 1 до 15.");
+        }
+    }
+}

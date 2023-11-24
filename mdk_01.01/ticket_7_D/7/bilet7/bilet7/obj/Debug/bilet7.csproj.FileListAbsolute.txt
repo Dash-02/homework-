@@ -1,0 +1,7 @@
+C:\Users\ПК\Desktop\7\bilet7\bilet7\bin\Debug\bilet7.exe.config
+C:\Users\ПК\Desktop\7\bilet7\bilet7\bin\Debug\bilet7.exe
+C:\Users\ПК\Desktop\7\bilet7\bilet7\bin\Debug\bilet7.pdb
+C:\Users\ПК\Desktop\7\bilet7\bilet7\obj\Debug\bilet7.csprojAssemblyReference.cache
+C:\Users\ПК\Desktop\7\bilet7\bilet7\obj\Debug\bilet7.csproj.CoreCompileInputs.cache
+C:\Users\ПК\Desktop\7\bilet7\bilet7\obj\Debug\bilet7.exe
+C:\Users\ПК\Desktop\7\bilet7\bilet7\obj\Debug\bilet7.pdb

@@ -1,0 +1,7 @@
+C:\Users\ПК\Desktop\bilet_8\bilet_8\bin\Debug\bilet_8.exe.config
+C:\Users\ПК\Desktop\bilet_8\bilet_8\bin\Debug\bilet_8.exe
+C:\Users\ПК\Desktop\bilet_8\bilet_8\bin\Debug\bilet_8.pdb
+C:\Users\ПК\Desktop\bilet_8\bilet_8\obj\Debug\bilet_8.csprojAssemblyReference.cache
+C:\Users\ПК\Desktop\bilet_8\bilet_8\obj\Debug\bilet_8.csproj.CoreCompileInputs.cache
+C:\Users\ПК\Desktop\bilet_8\bilet_8\obj\Debug\bilet_8.exe
+C:\Users\ПК\Desktop\bilet_8\bilet_8\obj\Debug\bilet_8.pdb

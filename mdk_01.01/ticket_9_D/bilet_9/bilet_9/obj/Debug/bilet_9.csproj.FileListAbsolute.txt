@@ -1,0 +1,15 @@
+C:\Users\ПК\Desktop\bilet_9\bilet_9\bin\Debug\bilet_9.exe.config
+C:\Users\ПК\Desktop\bilet_9\bilet_9\bin\Debug\bilet_9.exe
+C:\Users\ПК\Desktop\bilet_9\bilet_9\bin\Debug\bilet_9.pdb
+C:\Users\ПК\Desktop\bilet_9\bilet_9\obj\Debug\bilet_9.csprojAssemblyReference.cache
+C:\Users\ПК\Desktop\bilet_9\bilet_9\obj\Debug\bilet_9.csproj.CoreCompileInputs.cache
+C:\Users\ПК\Desktop\bilet_9\bilet_9\obj\Debug\bilet_9.exe
+C:\Users\ПК\Desktop\bilet_9\bilet_9\obj\Debug\bilet_9.pdb
+C:\Users\Admin\Desktop\bilet_9\bilet_9\bin\Debug\bilet_9.exe.config
+C:\Users\Admin\Desktop\bilet_9\bilet_9\bin\Debug\bilet_9.exe
+C:\Users\Admin\Desktop\bilet_9\bilet_9\bin\Debug\bilet_9.pdb
+C:\Users\Admin\Desktop\bilet_9\bilet_9\obj\Debug\bilet_9.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\bilet_9\bilet_9\obj\Debug\bilet_9.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\bilet_9\bilet_9\obj\Debug\bilet_9.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\bilet_9\bilet_9\obj\Debug\bilet_9.exe
+C:\Users\Admin\Desktop\bilet_9\bilet_9\obj\Debug\bilet_9.pdb

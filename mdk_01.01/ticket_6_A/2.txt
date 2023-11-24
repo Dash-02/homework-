@@ -1,0 +1,155 @@
+using System;
+using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
+using System.Diagnostics.Tracing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _6tiket
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string str = "";  // Переменная для хранения исправленного варианта слова
+            string word = Console.ReadLine(); //вводимое слово
+         
+            for (int i = 0; i < word.Length-1; i++)
+            {
+                // Проверка сочетания "жи" и "жы"
+                if (word[i] == 'ж'&& word[i+1] =='и')
+                {
+                    Console.WriteLine("Все верно");
+                }
+                
+                // Исправление ошибки "жы" на "жи"
+                else if (word[i] =='ж' & word[i+1] =='ы')
+                {
+                    for (int j = 0; j < word.Length; j++)
+                    {
+                        if (word[j] == 'ы')
+                        {
+                            str += 'и';
+                        }
+                        else
+                        {
+                            str += word[j];
+                        }
+                    }
+                 
+
+                    Console.WriteLine("Неверно. Верный вариант:"+ str);
+                }
+                // Аналогичные проверки и исправления для "ши", "ча"/"чя", "ща"/"щя", "щу"/"щю", "чу"/"чю"
+                if (word[i] == 'ш' && word[i + 1] == 'и')
+                {
+                    Console.WriteLine("Все верно");
+                }
+                else if (word[i] == 'ш' & word[i + 1] == 'ы')
+                {
+                    for (int j = 0; j < word.Length; j++)
+                    {
+                        if (word[j] == 'ы')
+                        {
+                            str += 'и';
+                        }
+                        else
+                        {
+                            str += word[j];
+                        }
+                    }
+
+
+                    Console.WriteLine("Неверно. Верный вариант:" + str);
+                }
+                if (word[i] == 'ч' && word[i + 1] == 'а')
+                {
+                    Console.WriteLine("Все верно");
+                }
+                else if (word[i] == 'ч' & word[i + 1] == 'я')
+                {
+                    for (int j = 0; j < word.Length; j++)
+                    {
+                        if (word[j] == 'я')
+                        {
+                            str += 'а';
+                        }
+                        else
+                        {
+                            str += word[j];
+                        }
+                    }
+
+
+                    Console.WriteLine("Неверно. Верный вариант:" + str);
+                }
+                if (word[i] == 'щ' && word[i + 1] == 'а')
+                {
+                    Console.WriteLine("Все верно");
+                }
+                else if (word[i] == 'щ' & word[i + 1] == 'я')
+                {
+                    for (int j = 0; j < word.Length; j++)
+                    {
+                        if (word[j] == 'я')
+                        {
+                            str += 'а';
+                        }
+                        else
+                        {
+                            str += word[j];
+                        }
+                    }
+
+
+                    Console.WriteLine("Неверно. Верный вариант:" + str);
+                }
+                if (word[i] == 'щ' && word[i + 1] == 'у')
+                {
+                    Console.WriteLine("Все верно");
+                }
+                else if (word[i] == 'щ' & word[i + 1] == 'ю')
+                {
+                    for (int j = 0; j < word.Length; j++)
+                    {
+                        if (word[j] == 'ю')
+                        {
+                            str += 'у';
+                        }
+                        else
+                        {
+                            str += word[j];
+                        }
+                    }
+
+
+                    Console.WriteLine("Неверно. Верный вариант:" + str);
+                }
+                if (word[i] == 'ч' && word[i + 1] == 'у')
+                {
+                    Console.WriteLine("Все верно");
+                }
+                else if (word[i] == 'ч' & word[i + 1] == 'ю')
+                {
+                    for (int j = 0; j < word.Length; j++)
+                    {
+                        if (word[j] == 'ю')
+                        {
+                            str += 'у';
+                        }
+                        else
+                        {
+                            str += word[j];
+                        }
+                    }
+
+
+                    Console.WriteLine("Неверно. Верный вариант:" + str);
+                }
+
+
+            }
+        }
+    }
+}

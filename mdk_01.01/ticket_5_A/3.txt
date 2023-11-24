@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _53
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int k;
+            // Запрашиваем у пользователя количество элементов массива
+            k = Convert.ToInt32(Console.ReadLine());
+
+            int[] arr = new int[k]; // Создаем массив целых чисел размером k
+            int sum = 0; // Инициализируем переменную для подсчета суммы
+            Random rnd = new Random(); // Создаем объект для генерации случайных чисел
+
+            // Заполняем массив случайными числами от -100 до 100
+            for (int i = 0; i < k; i++)
+            {
+                int random = rnd.Next(-100, 100); // Генерируем случайное число
+                arr[i] = random; // Присваиваем сгенерированное число элементу массива
+            }
+
+            // Выводим элементы массива и считаем их сумму
+            for (int i = 0; i < k; i++)
+            {
+      
+                sum += arr[i]; // Прибавляем значение элемента к общей сумме
+            }
+            Console.WriteLine("Сумма элементов = " + sum); // Выводим общую сумму элементов массива
+        }
+    }
+}

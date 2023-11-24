@@ -1,0 +1,32 @@
+using System;
+
+namespace _6tiket3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int k = Convert.ToInt32(Console.ReadLine());
+            int[,] arr = new int[k, k]; // Инициализация двумерного массива
+
+            for (int i = 0; i < k; i++)
+            {
+                for (int j = 0; j < k; j++)
+                {
+                    arr[i, j] = 1; // Обращение к элементам массива с использованием двойного индекса
+                }
+            }
+
+            // Дополнительно: Вывод массива для проверки
+            Console.WriteLine("Инициализированный массив:");
+            for (int i = 0; i < k; i++)
+            {
+                for (int j = 0; j < k; j++)
+                {
+                    Console.Write(arr[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+        }
+    }
+}

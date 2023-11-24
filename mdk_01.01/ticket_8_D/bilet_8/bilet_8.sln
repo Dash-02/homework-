@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bilet_8", "bilet_8\bilet_8.csproj", "{CF57DF83-B19B-46FE-AB0B-AD7793694780}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF57DF83-B19B-46FE-AB0B-AD7793694780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF57DF83-B19B-46FE-AB0B-AD7793694780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF57DF83-B19B-46FE-AB0B-AD7793694780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF57DF83-B19B-46FE-AB0B-AD7793694780}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A883A2ED-7066-4C33-BB20-7F1059A33EB4}
+	EndGlobalSection
+EndGlobal
