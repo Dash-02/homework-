@@ -1,0 +1,15 @@
+C:\Users\ПК\Desktop\7\bilet7\bilet7\bin\Debug\bilet7.exe.config
+C:\Users\ПК\Desktop\7\bilet7\bilet7\bin\Debug\bilet7.exe
+C:\Users\ПК\Desktop\7\bilet7\bilet7\bin\Debug\bilet7.pdb
+C:\Users\ПК\Desktop\7\bilet7\bilet7\obj\Debug\bilet7.csprojAssemblyReference.cache
+C:\Users\ПК\Desktop\7\bilet7\bilet7\obj\Debug\bilet7.csproj.CoreCompileInputs.cache
+C:\Users\ПК\Desktop\7\bilet7\bilet7\obj\Debug\bilet7.exe
+C:\Users\ПК\Desktop\7\bilet7\bilet7\obj\Debug\bilet7.pdb
+D:\JavaScript\shutak\homework-\mdk_01.01\ticket_7_A\7\bilet7\bilet7\bin\Debug\bilet7.exe.config
+D:\JavaScript\shutak\homework-\mdk_01.01\ticket_7_A\7\bilet7\bilet7\bin\Debug\bilet7.exe
+D:\JavaScript\shutak\homework-\mdk_01.01\ticket_7_A\7\bilet7\bilet7\bin\Debug\bilet7.pdb
+D:\JavaScript\shutak\homework-\mdk_01.01\ticket_7_A\7\bilet7\bilet7\obj\Debug\bilet7.csproj.AssemblyReference.cache
+D:\JavaScript\shutak\homework-\mdk_01.01\ticket_7_A\7\bilet7\bilet7\obj\Debug\bilet7.csproj.SuggestedBindingRedirects.cache
+D:\JavaScript\shutak\homework-\mdk_01.01\ticket_7_A\7\bilet7\bilet7\obj\Debug\bilet7.csproj.CoreCompileInputs.cache
+D:\JavaScript\shutak\homework-\mdk_01.01\ticket_7_A\7\bilet7\bilet7\obj\Debug\bilet7.exe
+D:\JavaScript\shutak\homework-\mdk_01.01\ticket_7_A\7\bilet7\bilet7\obj\Debug\bilet7.pdb
