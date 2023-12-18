@@ -1,0 +1,104 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Простой интернет-магазин</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        #products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 1em;
+        }
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 1em;
+            margin: 1em;
+            max-width: 200px;
+            text-align: center;
+        }
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 0.5em 1em;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Мой Интернет-Магазин</h1>
+    </header>
+    
+    <div id="products">
+        <div class="product">
+            <h2>Товар 1</h2>
+            <p>Описание товара 1.</p>
+            <p>Цена: $10</p>
+            <button onclick="addToCart(1)">Добавить в корзину</button>
+        </div>
+        <div class="product">
+            <h2>Товар 2</h2>
+            <p>Описание товара 2.</p>
+            <p>Цена: $20</p>
+            <button onclick="addToCart(2)">Добавить в корзину</button>
+        </div>
+    </div>
+
+    <div id="cart">
+        <h2>Корзина</h2>
+        <ul id="cart-items"></ul>
+        <p id="total">Итого: $0</p>
+    </div>
+
+    <script>
+        let cart = [];
+        
+        function addToCart(productId) {
+            const product = {
+                id: productId,
+                name: `Товар ${productId}`,
+                price: productId * 10
+            };
+
+            cart.push(product);
+            updateCart();
+        }
+
+        function updateCart() {
+            const cartItemsElement = document.getElementById('cart-items');
+            const totalElement = document.getElementById('total');
+            
+            cartItemsElement.innerHTML = '';
+            
+            let total = 0;
+            
+            cart.forEach(item => {
+                const li = document.createElement('li');
+                li.textContent = `${item.name} - $${item.price}`;
+                cartItemsElement.appendChild(li);
+                
+                total += item.price;
+            });
+            
+            totalElement.textContent = `Итого: $${total}`;
+        }
+    </script>
+</body>
+</html>

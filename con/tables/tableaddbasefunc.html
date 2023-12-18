@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Editable Table</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+
+		table,
+		th,
+		td {
+			border: 1px solid black;
+		}
+
+		th,
+		td {
+			padding: 10px;
+			text-align: left;
+		}
+
+		input {
+			width: 100%;
+			box-sizing: border-box;
+			margin-bottom: 8px;
+		}
+
+		button {
+			padding: 8px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+
+<body>
+
+	<table id="editableTable">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>NickName</th>
+				<th>Age</th>
+				<th>ID</th>
+
+			</tr>
+		</thead>
+		<tbody>
+			<!-- Rows will be dynamically added here -->
+		</tbody>
+	</table>
+
+	<script>
+		var counter = 0
+		function addRow() {
+			var table = document.getElementById("editableTable").getElementsByTagName('tbody')[0]
+			console.log(table.rows)
+			var nameInput = document.getElementById("name")
+			var ageInput = document.getElementById("age")
+			var NickNameInput = document.getElementById("NickName")
+			var name = nameInput.value
+			var age = ageInput.value
+			var NickName = NickNameInput.value
+
+
+			// Check if both name and age are provided before adding the row
+			if (name && age && NickName) {
+				var newRow = table.insertRow(table.rows.length)
+				var cell1 = newRow.insertCell(0)
+				var cell2 = newRow.insertCell(1)
+				var cell3 = newRow.insertCell(2)
+				var cell4 = newRow.insertCell(3)
+				counter += 1
+				const myFunc = () => {
+					console.log('my Func', cell1, cell2)
+				}
+				cell1.innerHTML = name
+				cell2.innerHTML = NickName
+				cell3.innerHTML = age
+				cell4.innerHTML = counter
+				console.log(cell1)
+				console.log(cell2)
+				console.log(cell3)
+				console.log(cell4)
+				// Clear input fields after adding a row
+				nameInput.value = ""
+				ageInput.value = ""
+				NickNameInput = ""
+			}
+		}
+	</script>
+
+	<div>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name">
+	</div>
+	<div>
+		<label for="NickName">NickName:</label>
+		<input type="text" id='NickName' name='NickName'>
+	</div>
+	<div>
+		<label for="age">Age:</label>
+		<input type="text" id="age" name="age">
+	</div>
+
+	<button onclick="addRow()">Add Row</button>
+
+</body>
+
+</html>

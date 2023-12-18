@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Burger Menu</title>
+	<style>
+		body {
+			font-family: 'Arial', sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f4f4f4;
+		}
+
+		.navbar {
+			background-color: #333;
+			padding: 15px;
+			text-align: center;
+		}
+
+		.navbar a {
+			color: white;
+			text-decoration: none;
+			font-size: 18px;
+			margin: 0 15px;
+			cursor: pointer;
+		}
+
+		.burger-menu {
+			display: none;
+			cursor: pointer;
+		}
+
+		.burger-menu div {
+			width: 30px;
+			height: 3px;
+			background-color: white;
+			margin: 6px 0;
+			transition: 0.4s;
+		}
+
+		@media screen and (max-width: 768px) {
+			.navbar a {
+				display: none;
+			}
+
+			.burger-menu {
+				display: block;
+			}
+
+			.navbar.responsive {
+				position: relative;
+			}
+
+			.navbar.responsive a {
+				display: block;
+				text-align: left;
+				width: 100%;
+				margin: 10px 0;
+			}
+
+			.burger-menu.active div:nth-child(1) {
+				transform: rotate(-45deg) translate(-5px, 6px);
+			}
+
+			.burger-menu.active div:nth-child(2) {
+				opacity: 0;
+			}
+
+			.burger-menu.active div:nth-child(3) {
+				transform: rotate(45deg) translate(-5px, -6px);
+			}
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="navbar" id="navbar">
+		<div class="burger-menu" onclick="toggleMenu()">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Services</a>
+		<a href="#">Contact</a>
+	</div>
+
+	<script>
+		function toggleMenu() {
+			var navbar = document.getElementById("navbar")
+			navbar.classList.toggle("responsive")
+			var burgerMenu = document.querySelector(".burger-menu")
+			burgerMenu.classList.toggle("active")
+		}
+	</script>
+
+</body>
+
+</html>

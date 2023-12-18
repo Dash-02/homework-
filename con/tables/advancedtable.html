@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Editable Table</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+
+		table,
+		th,
+		td {
+			border: 1px solid black;
+		}
+
+		th,
+		td {
+			padding: 10px;
+			text-align: left;
+		}
+
+		input {
+			width: 100%;
+			box-sizing: border-box;
+			margin-bottom: 8px;
+		}
+
+		button {
+			padding: 8px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+
+<body>
+
+	<table id="editableTable">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Age</th>
+				<th>ID</th>
+				<th>Action</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- Rows will be dynamically added here -->
+		</tbody>
+	</table>
+
+	<script>
+		var counter = 0
+
+		function addRow() {
+			var table = document.getElementById("editableTable").getElementsByTagName('tbody')[0]
+			var nameInput = document.getElementById("name")
+			var ageInput = document.getElementById("age")
+
+			var name = nameInput.value
+			var age = ageInput.value
+
+			// Check if both name and age are provided before adding the row
+			if (name && age) {
+				var newRow = table.insertRow(table.rows.length)
+				var cell1 = newRow.insertCell(0)
+				var cell2 = newRow.insertCell(1)
+				var cell3 = newRow.insertCell(2)
+				var cell4 = newRow.insertCell(3)
+
+				counter += 1
+
+				cell1.innerHTML = name
+				cell2.innerHTML = age
+				cell3.innerHTML = counter
+				cell4.innerHTML = '<button onclick="editRow(' + counter + ')">Edit</button> ' +
+					'<button onclick="removeRow(' + counter + ')">Remove</button>'
+
+				// Clear input fields after adding a row
+				nameInput.value = ""
+				ageInput.value = ""
+			}
+		}
+
+		function editRow(id) {
+			var table = document.getElementById("editableTable").getElementsByTagName('tbody')[0]
+			var rows = table.getElementsByTagName("tr")
+
+			for (var i = 0; i < rows.length; i++) {
+				var cells = rows[i].getElementsByTagName("td")
+
+				if (cells[2].innerHTML == id) {
+					var newName = prompt("Enter new name", cells[0].innerHTML)
+					var newAge = prompt("Enter new age", cells[1].innerHTML)
+
+					if (newName !== null && newAge !== null) {
+						cells[0].innerHTML = newName
+						cells[1].innerHTML = newAge
+					}
+					break
+				}
+			}
+		}
+
+		function removeRow(id) {
+			var table = document.getElementById("editableTable").getElementsByTagName('tbody')[0]
+			var rows = table.getElementsByTagName("tr")
+
+			for (var i = 0; i < rows.length; i++) {
+				var cells = rows[i].getElementsByTagName("td")
+
+				if (cells[2].innerHTML == id) {
+					table.deleteRow(i)
+					break
+				}
+			}
+		}
+	</script>
+
+	<div>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name">
+	</div>
+
+	<div>
+		<label for="age">Age:</label>
+		<input type="text" id="age" name="age">
+	</div>
+
+	<button onclick="addRow()">Add Row</button>
+
+</body>
+
+</html>

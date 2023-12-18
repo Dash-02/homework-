@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Smooth Scroll</title>
+	<style>
+		body {
+			font-family: 'Arial', sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f4f4f4;
+		}
+
+		.navbar {
+			background-color: #333;
+			padding: 15px;
+			position: fixed;
+			width: 100%;
+			top: 0;
+			z-index: 1000;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+
+		.navbar a {
+			color: white;
+			text-decoration: none;
+			font-size: 18px;
+			margin: 0 15px;
+			cursor: pointer;
+		}
+
+		.burger-menu {
+			display: none;
+			cursor: pointer;
+			font-size: 24px;
+			color: white;
+			flex-direction: column;
+			justify-content: space-around;
+			height: 24px;
+
+			width: 24px;
+			margin-right: 20px;
+		}
+
+		.burger-menu div {
+			width: 24px;
+			height: 3px;
+
+			background-color: white;
+			transition: 0.4s;
+		}
+
+		.burger-menu.active div:nth-child(1) {
+			transform: rotate(-45deg) translate(-5px, 6px);
+		}
+
+		.burger-menu.active div:nth-child(2) {
+			opacity: 0;
+		}
+
+		.burger-menu.active div:nth-child(3) {
+			transform: rotate(45deg) translate(-5px, -6px);
+		}
+
+		.content-section {
+			padding: 20px;
+			background-color: #fff;
+			margin-top: 80px;
+			border-radius: 8px;
+			text-align: center;
+		}
+
+		@media screen and (max-width: 768px) {
+			.navbar a {
+				display: none;
+			}
+
+			.navbar {
+				display: flex;
+				justify-content: flex-start;
+			}
+
+			.burger-menu {
+				display: flex;
+				flex-direction: column;
+
+			}
+
+			.navbar.responsive {
+				flex-direction: column;
+			}
+
+			.navbar.responsive a {
+				display: block;
+				text-align: center;
+				width: 100%;
+				margin: 10px 0;
+			}
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="navbar" id="navbar">
+		<div class="burger-menu" onclick="toggleMenu()">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<a href="#home">Home</a>
+		<a href="#about">About</a>
+		<a href="#services">Services</a>
+		<a href="#contact">Contact</a>
+	</div>
+
+	<!-- Content Sections -->
+	<div class="content-section" id="home">
+		<h2>Home</h2>
+		<p>Welcome to our website. This is the home section.</p>
+	</div>
+
+	<div class="content-section" id="about">
+		<h2>About</h2>
+		<p>Learn more about us in the about section.</p>
+	</div>
+
+	<div class="content-section" id="services">
+		<h2>Services</h2>
+		<p>Explore the services we offer in this section.</p>
+	</div>
+
+	<div class="content-section" id="contact">
+		<h2>Contact</h2>
+		<p>Contact us here. We'd love to hear from you!</p>
+	</div>
+
+	<script>
+		function toggleMenu() {
+			var navbar = document.getElementById("navbar")
+			navbar.classList.toggle("responsive")
+			var burgerMenu = document.querySelector(".burger-menu")
+			burgerMenu.classList.toggle("active")
+		}
+
+		document.querySelectorAll('.navbar a').forEach(anchor => {
+			anchor.addEventListener('click', function (e) {
+				e.preventDefault()
+
+				const targetId = this.getAttribute('href').substring(1)
+				const targetElement = document.getElementById(targetId)
+
+				window.scrollTo({
+					top: targetElement.offsetTop - document.getElementById("navbar").offsetHeight,
+					behavior: 'smooth'
+				})
+
+				// Close the menu (if open) when a link is clicked
+				var navbar = document.getElementById("navbar")
+				navbar.classList.remove("responsive")
+				var burgerMenu = document.querySelector(".burger-menu")
+				burgerMenu.classList.remove("active")
+			})
+		});
+	</script>
+
+</body>
+
+</html>

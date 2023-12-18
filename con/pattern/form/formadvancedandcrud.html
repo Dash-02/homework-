@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Form</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+			background-color: #f4f4f4;
+		}
+
+		form {
+			background-color: #fff;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+			text-align: center;
+		}
+
+		label {
+			display: block;
+			margin-bottom: 8px;
+		}
+
+		input {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 16px;
+			box-sizing: border-box;
+		}
+
+		button {
+			padding: 10px 20px;
+			font-size: 16px;
+			background-color: #3498db;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		#confirmation {
+			margin-top: 16px;
+			color: #27ae60;
+		}
+
+		table {
+			width: 100%;
+			margin-top: 20px;
+			border-collapse: collapse;
+		}
+
+		table,
+		th,
+		td {
+			border: 1px solid #ddd;
+			padding: 8px;
+			text-align: left;
+		}
+
+		/* Added styles for the edit and remove buttons */
+		.edit-button,
+		.remove-button {
+			cursor: pointer;
+			background-color: #4caf50;
+			color: #fff;
+			border: none;
+			border-radius: 3px;
+			padding: 5px 10px;
+			margin-right: 5px;
+		}
+
+		.remove-button {
+			background-color: #e74c3c;
+		}
+	</style>
+</head>
+
+<body>
+
+	<form id="contactForm">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+
+		<label>Gender:</label>
+		<input type="radio" id="male" name="gender" value="male">
+		<label for="male">Male</label>
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="female">Female</label>
+
+		<label for="message">Message:</label>
+		<textarea id="message" name="message" rows="4" required></textarea>
+
+		<label>
+			<input type="checkbox" id="agree" name="agree" required>
+			I agree to the terms and conditions
+		</label>
+
+		<button type="button" onclick="submitForm()">Submit</button>
+
+		<div id="confirmation"></div>
+
+		<table id="data-table">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Gender</th>
+					<th>Message</th>
+					<th>Agree</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+	</form>
+
+	<script>
+		function submitForm() {
+			var name = document.getElementById("name").value
+			var email = document.getElementById("email").value
+			var gender = document.querySelector('input[name="gender"]:checked')
+			var message = document.getElementById("message").value
+			var agree = document.getElementById("agree").checked
+
+			// Simple email validation
+			var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+			if (!emailRegex.test(email)) {
+				alert("Please enter a valid email address.")
+				return
+			}
+
+			if (!gender) {
+				alert("Please select your gender.")
+				return
+			}
+
+			if (!agree) {
+				alert("Please agree to the terms and conditions.")
+				return
+			}
+
+			// Check if email is already in the table
+			var existingEmails = Array.from(document.querySelectorAll("#data-table tbody tr td:nth-child(2)")).map(
+				(emailCell) => emailCell.textContent.trim()
+			)
+
+			if (existingEmails.includes(email)) {
+				alert("Email address must be unique.")
+				return
+			}
+
+			// Display confirmation message
+			var confirmationMessage = "Thank you, " + name + "! Your message has been submitted."
+			document.getElementById("confirmation").textContent = confirmationMessage
+
+			// Update table with submitted data
+			var table = document.getElementById("data-table").getElementsByTagName("tbody")[0]
+			var newRow = table.insertRow(table.rows.length)
+			var cell1 = newRow.insertCell(0)
+			var cell2 = newRow.insertCell(1)
+			var cell3 = newRow.insertCell(2)
+			var cell4 = newRow.insertCell(3)
+			var cell5 = newRow.insertCell(4)
+			var cell6 = newRow.insertCell(5)
+
+			cell1.innerHTML = name
+			cell2.innerHTML = email
+			cell3.innerHTML = gender.value
+			cell4.innerHTML = message
+			cell5.innerHTML = agree ? "Yes" : "No"
+			cell6.innerHTML =
+				'<button class="edit-button" onclick="editRow(this)">Edit</button>' +
+				'<button class="remove-button" onclick="removeRow(this)">Remove</button>'
+
+			// Clear form fields
+			document.getElementById("name").value = ""
+			document.getElementById("email").value = ""
+			document.getElementById("male").checked = false
+			document.getElementById("female").checked = false
+			document.getElementById("message").value = ""
+			document.getElementById("agree").checked = false
+		}
+
+		function editRow(button) {
+			var row = button.closest("tr")
+			var cells = row.getElementsByTagName("td")
+			var name = cells[0].textContent.trim()
+			var email = cells[1].textContent.trim()
+			var gender = cells[2].textContent.trim()
+			var message = cells[3].textContent.trim()
+			var agree = cells[4].textContent.trim() === "Yes"
+
+			document.getElementById("name").value = name
+			document.getElementById
+
+				("email").value = email
+			document.getElementById(gender.toLowerCase()).checked = true
+			document.getElementById("message").value = message
+			document.getElementById("agree").checked = agree
+
+			// Remove the edited row
+			row.parentNode.removeChild(row)
+		}
+
+		function removeRow(button) {
+			var row = button.closest("tr")
+			row.parentNode.removeChild(row)
+		}
+	</script>
+
+</body>
+
+</html>

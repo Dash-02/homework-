@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Your Landing Page</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			background-color: #f4f4f4;
+			color: #333;
+		}
+
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+		nav {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			margin: 0 15px;
+			font-size: 16px;
+		}
+
+		.burger-menu {
+			display: none;
+			flex-direction: column;
+			cursor: pointer;
+		}
+
+		.burger-line {
+			width: 30px;
+			height: 3px;
+			background-color: #fff;
+			margin: 6px 0;
+		}
+
+		section {
+			padding: 40px;
+			text-align: center;
+		}
+
+		section img {
+			max-width: 100%;
+			height: auto;
+			margin-bottom: 20px;
+			border-radius: 5px;
+		}
+
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+		.cta-button {
+			display: inline-block;
+			padding: 10px 20px;
+			font-size: 18px;
+			background-color: #ff6600;
+			color: #fff;
+			text-decoration: none;
+			border-radius: 5px;
+			transition: background-color 0.3s;
+		}
+
+		.cta-button:hover {
+			background-color: #e55400;
+		}
+
+		@media (max-width: 768px) {
+			nav {
+				display: none;
+				flex-direction: column;
+				text-align: center;
+				background-color: #333;
+				position: absolute;
+				width: 100%;
+				top: 60px;
+			}
+
+			nav.show {
+				display: flex;
+			}
+
+			.burger-menu {
+				display: flex;
+			}
+		}
+	</style>
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<a href="#">Home</a>
+			<a href="#">About</a>
+			<a href="#">Services</a>
+			<a href="#">Contact</a>
+		</nav>
+		<div class="burger-menu" onclick="toggleNav()">
+			<div class="burger-line"></div>
+			<div class="burger-line"></div>
+			<div class="burger-line"></div>
+		</div>
+		<h1>Your Landing Page</h1>
+		<p>Welcome to our amazing website!</p>
+	</header>
+
+	<section>
+		<img src="https://placekitten.com/800/400" alt="About Us Image">
+		<h2>About Us</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget justo vitae libero sodales
+			accumsan. Sed auctor nisl a mauris sodales luctus. Proin euismod dui in tellus euismod, vel
+			tempor mauris convallis.</p>
+		<p><a href="#cta" class="cta-button">Learn More</a></p>
+	</section>
+
+	<section id="cta">
+		<img src="https://placekitten.com/800/400" alt="Get Started Image">
+		<h2>Get Started Today!</h2>
+		<p>Don't miss out on the opportunity. Join us now and experience the best service ever!</p>
+		<p><a href="#" class="cta-button">Sign Up</a></p>
+	</section>
+
+	<footer>
+		<p>&copy; 2023 Your Landing Page. All rights reserved.</p>
+	</footer>
+
+	<script>
+		function toggleNav() {
+			var nav = document.querySelector('nav')
+			nav.classList.toggle('show')
+		}
+	</script>
+
+</body>
+
+</html>
