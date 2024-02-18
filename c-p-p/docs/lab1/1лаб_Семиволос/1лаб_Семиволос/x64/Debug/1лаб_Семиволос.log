@@ -1,0 +1,6 @@
+﻿  1лаб_Семиволос.cpp
+C:\Users\User\Desktop\Honework\homework-\c-p-p\docs\lab1\1лаб_Семиволос\1лаб_Семиволос\1лаб_Семиволос.cpp(12,16): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\Desktop\Honework\homework-\c-p-p\docs\lab1\1лаб_Семиволос\1лаб_Семиволос\1лаб_Семиволос.cpp(14,17): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\Desktop\Honework\homework-\c-p-p\docs\lab1\1лаб_Семиволос\1лаб_Семиволос\1лаб_Семиволос.cpp(16,16): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\Desktop\Honework\homework-\c-p-p\docs\lab1\1лаб_Семиволос\1лаб_Семиволос\1лаб_Семиволос.cpp(18,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  1лаб_Семиволос.vcxproj -> C:\Users\User\Desktop\Honework\homework-\c-p-p\docs\lab1\1лаб_Семиволос\x64\Debug\1лаб_Семиволос.exe
