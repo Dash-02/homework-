@@ -1,0 +1,3 @@
+﻿  pr6_Sem.cpp
+C:\Users\User\Desktop\pr6_Sem\pr6_Sem\pr6_Sem.cpp(14,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  pr6_Sem.vcxproj -> C:\Users\User\Desktop\pr6_Sem\x64\Debug\pr6_Sem.exe
