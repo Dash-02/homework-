@@ -1,0 +1,3 @@
+/home/darlix/Документы/Homework/homework-/c-p-p/ср/ср3_двумерные_массивы/ср3/cmake-build-debug/CMakeFiles/3.dir
+/home/darlix/Документы/Homework/homework-/c-p-p/ср/ср3_двумерные_массивы/ср3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/darlix/Документы/Homework/homework-/c-p-p/ср/ср3_двумерные_массивы/ср3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
