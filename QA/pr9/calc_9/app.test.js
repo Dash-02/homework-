@@ -18,7 +18,7 @@ const {
     mockDisplay = { value: '' };
     document.getElementById = jest.fn().mockReturnValue(mockDisplay);
     global.alert = jest.fn();
-    _setMemory(0); // Устанавливаем начальное значение памяти перед каждым тестом
+    _setMemory(0);
   });
   
   test('appendToDisplay adds value to display', () => {
